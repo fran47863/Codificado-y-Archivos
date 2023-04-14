@@ -13,7 +13,13 @@ public class CodificadoConArchivos {
 		 *  							  2 = se desea decodificar
 		 *  el segundo argumento puede ser cualquier int
 		 *  y funciona como offset a la hora de codificar o decodifcar
+		 *  
+		 *  para CODIFICAR se necesita ingresar un OFFSET NEGATIVO
+		 *  y así el programa realiza el algoritmo para DECODIFICAR
+		 *  todavía no se me ocurre para que se base en el 
+		 *  primer argumento (args[0]==2)
 		 */
+		
 		
 		String archivoPalabras = "C:\\Users\\fran4\\git\\repository\\CodificadoConArchivos\\src\\palabras.txt";
 		String archivoCodificadas = "C:\\Users\\fran4\\git\\repository\\CodificadoConArchivos\\src\\codificadas.txt";
@@ -76,5 +82,4 @@ public class CodificadoConArchivos {
 			}
 		}	
 	}
-
 }
